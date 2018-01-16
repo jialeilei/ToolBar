@@ -1,5 +1,9 @@
 package com.sansitech.actionbar;
 
+import android.content.Intent;
+import android.view.View;
+import android.widget.Button;
+
 /**
  *
  * @author lei
@@ -7,7 +11,6 @@ package com.sansitech.actionbar;
  */
 
 public class MainActivity extends BaseActivity {
-
 
 
     @Override
@@ -18,6 +21,14 @@ public class MainActivity extends BaseActivity {
     @Override
     protected void initView() {
 
+        Button button = bindViewId(R.id.btn_jump);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,DetailActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
 

@@ -11,11 +11,9 @@
 
     <!-- v21 开始有 statusBarColor -->
     <style name="TranslucentThem" parent="Theme.AppCompat.Light.NoActionBar">
-
         <item name="android:windowTranslucentStatus">false</item>
         <item name="android:windowTranslucentNavigation">true</item>
         <item name="android:statusBarColor">@color/transparent</item>
-
     </style>
 
 

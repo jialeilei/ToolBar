@@ -1,6 +1,8 @@
 package com.sansitech.actionbar;
 
 
+import android.support.v7.widget.Toolbar;
+
 
 /**
  *
@@ -17,8 +19,16 @@ public class DetailActivity extends CommonActivity {
         return R.layout.activity_detail;
     }
 
+
     @Override
-    protected void init() {
+    protected void initView() {
+
+        //测试toolbar
+        Toolbar toolbar = getToolBar();
+        toolbar.setLogo(R.mipmap.ic_launcher);
+        toolbar.setTitle("title");
+        toolbar.setSubtitle("subtitle");
+        toolbar.setNavigationContentDescription("返回");
 
     }
 
