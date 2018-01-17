@@ -1,4 +1,4 @@
-package com.sansitech.actionbar;
+package com.sansitech.actionbar.activity;
 
 
 import android.os.Bundle;
@@ -30,9 +30,7 @@ public abstract class BaseActivity extends AppCompatActivity {
         return (T) findViewById(resId);
     }
 
-    /**
-     * statusBar、toolBar
-     */
+
     protected void setView() {
         setContentView(getLayoutId());
     }

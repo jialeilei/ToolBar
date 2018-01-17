@@ -1,7 +1,9 @@
-package com.sansitech.actionbar;
+package com.sansitech.actionbar.activity;
 
 
 import android.support.v7.widget.Toolbar;
+
+import com.sansitech.actionbar.R;
 
 
 /**

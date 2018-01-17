@@ -1,8 +1,10 @@
-package com.sansitech.actionbar;
+package com.sansitech.actionbar.activity;
 
 import android.content.Intent;
 import android.view.View;
 import android.widget.Button;
+
+import com.sansitech.actionbar.R;
 
 /**
  *
